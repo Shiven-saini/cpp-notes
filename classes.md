@@ -36,7 +36,9 @@ public:
 ```
 
 **static member variable:** not linked to any object but to the class itself. 
+
 **static member function:** not linked to any function but to the class itself.
+
 **friend function :** can be used to give the function access rights to the private members.
 
 
