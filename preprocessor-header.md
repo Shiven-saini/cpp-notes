@@ -29,3 +29,35 @@ To include header file named *user.h*
 `#include "user.h"`
 
 Above directive will just copy and paste content from this file to the file it is being included into.
+
+File : print.cpp
+```cpp
+#include "Print.h"
+#include <iostream>
+
+void Print(const char* text){
+	std::cout << text << std::endl;
+}
+```
+
+File : print.h
+```cpp
+#ifndef PRINT_H     // header guards to make preprocessor not to
+#define PRINT_H     // include same file twice in the program.
+
+// Forward declaration
+void Print(const char* text);
+
+#endif
+```
+
+File : main.cpp
+```cpp
+#include "Print.h"
+
+int main(){
+	Print("Hello world");
+}
+```
+
+---
