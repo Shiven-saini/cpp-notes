@@ -14,14 +14,14 @@ C++ comes with following built-in data types designed in the language itself :-
 	3. `long double :` much higher 16-point precision
 
 2. Integral type : 
-	1. `boolean :` true or false, not available in C.
-	2. `character :` 
+	1. boolean : true or false, not available in C.
+	2. character : 
 		1. `char :` 'A' or any ascii value. Generally 1 byte.
 		2. `wchar_t :` Supports utf-8 characters.
 		3. `char8_t`
 		4. `char16_t`
 		5. `char32_t`
-	3. `integer :`
+	3. integer :
 		1. `short int`
 		2. `int`
 		3. `long int`
