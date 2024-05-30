@@ -45,7 +45,7 @@ public:
 ---
 ## Inheritance in C++
 
-- Virtual functions `virutal` & `override`
+- Virtual functions `virtual` & `override`
 - Inheritance 
 - Abstract class : class only defined implementation and meant to be derived only.
 
