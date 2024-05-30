@@ -25,4 +25,4 @@ IDE Used :- `Clion(on linux-x86_64)`
 - Vectors & Fixed-size arrays
 - Iterators & algorithms
 - Bit Manipulation
-- Miscellanous
+- Miscellaneous
