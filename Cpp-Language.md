@@ -78,3 +78,63 @@ sight = 0;
 **General shortcut to comment in IDEs :**  `ctrl + /`
 
 ----
+
+# Objects & Variables
+
+Direct memory access is discouraged in C++, each memory location is divided and operated upon in *byte-sized* manner.
+
+- An object is a region of storage that can store a value.
+- C++ favours OOPs paradigm in fact each and every stuff in c++ is an object in one way or another.
+- An object when given a name is called **"Variable."**
+
+Earlier on the size of byte (i.e. how many bits will be stored in 1 byte) was not standardized but completely free to the system designer.
+
+Today it is pretty much standardized and each moder architecture stores `1 byte = 8 bits`
+
+### Declaration of variables syntax in C++
+```cpp
+int num1, num2; // Can do but not recommended.
+int num1, float num2; // Error : Can't declare different types in same statement.
+int num1;
+int num2; // For better legibility.
+
+// Suggestion: Prefer list initialization
+int num1{7}; // Avoid narrow conversion and intialize it properly.
+```
+
+### Identifier naming rules :
+1. Cannot be a keyword.
+2. Can only be composed of letters, numbers and underscore(\_).
+3. identifier must not start with a number.
+
+**Best practices & conventions :**
+1. Identifier names for user-defined type (struct, class, enums) should start with uppercase letter.
+2. Personal preference : for variables : `snake_case` | for functions : `camelCase`
+3. Make the length of identifier as per frequency used.
+4. For constant variables : `kConstantValue` prefixed with letter 'k'
+
+**Fun-fact:**
+>Identifier names must not start with a number because of fortran back then fortran and basic(only designed to teaching purpose) used numbers to denote the flow of program, which may lead to identifier prefixed with number resulting in an error.
+
+### Related terms :
+1. Unintialized  : A variable that has not given a known value. It's value will be whatever is already stored at that particular memory address.
+2. Initialized  : A variable that is given a known value at the point of definition.
+3. Assignment  : A variable that is given a value but later on in another statement.
+
+**Fun Fact:**
+>Lack of initialization is a performance improvement inherited from C language. Earlier on it was really costly to execute even the basic functions like assignment coz of expensive cycles.
+>PS: We are living in the golden age of computing!
+
+---
+# Undefined behaviour
+Result of executing code whose behaviour is not well-defined by the C++ language. It can lead to a couple of invisible bugs later on down the line.
+
+### Symptoms that might show presence of undefined behaviour.
+- Program produces different results every time it is run.
+- Program consistently produces the incorrect result.
+- Program behaves inconsistently.
+- Program crashes immediately or later.
+- Program may or may not compile on different compilers.
+
+---
+
