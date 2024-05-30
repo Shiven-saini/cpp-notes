@@ -26,3 +26,8 @@ IDE Used :- `Clion(on linux-x86_64)`
 - Iterators & algorithms
 - Bit Manipulation
 - Miscellaneous
+
+**References :-**
+- TheCherno's C++ Playlist [Source](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) 
+- C++ Primer 5th ed.
+- Learncpp articles [Source](https://learncpp.com)

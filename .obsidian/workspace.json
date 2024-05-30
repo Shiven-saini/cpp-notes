@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2b1c64b5144881a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "preprocessor-header.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "classes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "classes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "classes.md"
+                "file": "README.md"
               }
             }
           }
@@ -171,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3300756aec714f65",
+  "active": "4827f99a10b15183",
   "lastOpenFiles": [
-    "Cpp-Language.md",
+    "preprocessor-header.md",
+    "Pasted image 20240530144434.png",
     "classes.md",
+    "Cpp-Language.md",
     "README.md",
     "Datatypes.md"
   ]
