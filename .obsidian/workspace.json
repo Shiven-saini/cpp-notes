@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d63f968b7312643e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vector STL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27b8a5435460f63a",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "preprocessor-header.md",
+                "file": "Vector STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "preprocessor-header.md",
+                "file": "Vector STL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "preprocessor-header.md"
+                "file": "Vector STL.md"
               }
             }
           }
@@ -183,10 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2b1c64b5144881a",
+  "active": "d63f968b7312643e",
   "lastOpenFiles": [
-    "README.md",
     "preprocessor-header.md",
+    "Vector STL.md",
+    "README.md",
     "Pasted image 20240530144434.png",
     "classes.md",
     "Cpp-Language.md",
